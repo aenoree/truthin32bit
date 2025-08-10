@@ -19,10 +19,12 @@ permalink: "/credits/"
 - [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)
 - [CC BY-SA 2.0 de](https://creativecommons.org/licenses/by-sa/2.0/de/deed.en)
 - [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
+- [CC BY-SA 3.0 nl](https://creativecommons.org/licenses/by-sa/3.0/de/deed.nl)
 - [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 - [CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/)
 - [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-- Public domain: This work has been released into the public domain by its author. In some countries this may not be legally possible; if so: the author grants anyone the right to use this work for any purpose, without any conditions, unless such conditions are required by law.
+- Public domain: This work has been released into the public domain by its author. In some countries this may not be legally possible; if so: the author grants anyone the right to use this work for any purpose, without any conditions, unless such conditions are required by law.<br>
+It may also have been released into the public domain due to its copyright term expiring in its country of origin, or a sufficient number of years having passed since its author's passing.
 - [Unsplash](https://unsplash.com/license)
 - © GM: "This image is protected by copyright but provided for editorial and social media use. The use of this image for advertising, marketing, or any other commercial purposes is prohibited."
 
