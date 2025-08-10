@@ -23,7 +23,6 @@ module.exports = async function (eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy("src/media", {
         expand: true, // expand symbolic links
-        filter: ["**/*.*", "!**/pictures/*.jpg", "!**/pictures/*.webp"]
     });
 
     eleventyConfig.addPassthroughCopy("src/robots.txt", {

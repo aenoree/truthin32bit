@@ -33,7 +33,7 @@
     <updated>{{ buildinfo.buildDateIso }}</updated>
     <id>{{ absolutePostUrl }}</id>
     <content type="html">
-    &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot;  src=&quot;{% if ".jpg" in post.data.picture %}{{ post.data.picture | replace(".jpg", "-1150.webp") | htmlBaseUrl(metadata.base) }}{% elif ".webp" in post.data.picture %}{{ post.data.picture | replace(".webp", "-1150.webp") | htmlBaseUrl(metadata.base) }}{% endif %}&quot; {% if post.data.alt %}alt=&quot;{{ post.data.alt }}&quot;{% else %}alt=&quot;{{ post.data.year }} {{ post.data.manufacturer }} {{ post.data.model }}&quot;{% endif %}&gt;
+    &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot;  src=&quot;{{ post.data.picture | htmlBaseUrl(metadata.base) }}&quot; {% if post.data.alt %}alt=&quot;{{ post.data.alt }}&quot;{% else %}alt=&quot;{{ post.data.year }} {{ post.data.manufacturer }} {{ post.data.model }}&quot;{% endif %}&gt;
     {% if post.data.pictureCredit %}
     &lt;p&gt;&lt;small&gt;credit: &lt;a href=&quot;{{ post.data.pictureCreditUrl }}&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;{{ post.data.pictureCredit }}&lt;/a&gt; under &lt;a href=&quot;/credits/#:~:text={{ post.data.pictureLicense }}&quot;&gt;{{ post.data.pictureLicense }}&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
     {% endif %}
