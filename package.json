@@ -4,7 +4,7 @@
   "scripts": {
     "start": "node scripts/getPosts.js && npm version && gen-build-info src/_data && eleventy --serve",
     "build": "node scripts/getPosts.js && npm version && gen-build-info src/_data && eleventy",
-    "buildandpost": "node scripts/getPosts.js && npm version && gen-build-info src/_data && eleventy && node scripts/makePost.js"
+    "buildandpost": "node scripts/getPosts.js && npm version && gen-build-info src/_data && eleventy && node scripts/makePost.ts"
   },
   "license": "GPLv3",
   "dependencies": {
