@@ -1,0 +1,10 @@
+---
+layout: "index.html"
+permalink: "/machines/index.html"
+---
+<h1>Machines list</h1>
+{% for post in collections.post | sort(false, true, 'data.year') %}
+<ul>
+    <li><a href="{{ post.url }}" data-prefetch>{{ post.data.year }} {{ post.data.manufacturer }} {{ post.data.model }}</a></li>
+</ul>
+{% endfor %}

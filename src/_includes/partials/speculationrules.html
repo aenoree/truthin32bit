@@ -1,0 +1,36 @@
+<!-- speculation rules as explained by https://csswizardry.com/2024/12/a-layered-approach-to-speculation-rules/ does it make a tangible difference? fuck if i know -->
+<script type=speculationrules>
+  {
+    "prefetch": [
+      {
+        "where": {
+          "selector_matches": "[data-prefetch='']"
+        },
+        "eagerness": "immediate"
+      },
+      {
+        "where": {
+          "and": [
+            { "href_matches": "/*" },
+            { "not": { "selector_matches": "[data-prefetch=false]" } }
+          ]
+        },
+        "eagerness": "moderate"
+      }
+    ],
+    "prerender": [
+      {
+        "where": {
+          "selector_matches": "[data-prefetch=prerender]"
+        },
+        "eagerness": "immediate"
+      },
+      {
+        "where": {
+          "selector_matches": "[data-prefetch='']"
+        },
+        "eagerness": "moderate"
+      }
+    ]
+  }
+</script>

@@ -1,0 +1,32 @@
+{
+  "name": "Truth in 32 bit",
+  "version": "1.0",
+  "scripts": {
+    "start": "node scripts/getPosts.js && npm version && gen-build-info src/_data && eleventy --serve",
+    "build": "node scripts/getPosts.js && npm version && gen-build-info src/_data && eleventy"
+  },
+  "license": "GPLv3",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-fetch": "^5.1.0",
+    "@11ty/eleventy-img": "^6.0.4",
+    "@11ty/eleventy-plugin-rss": "^2.0.4",
+    "@atproto/api": "^0.16.2",
+    "clean-css": "^5.3.3",
+    "cron": "^4.3.3",
+    "dotenv": "^17.2.1",
+    "eleventy-plugin-purgecss": "^0.5.0",
+    "generate-build-info": "^0.0.3",
+    "image-size": "^2.0.2",
+    "lodash.get": "^4.4.2",
+    "markdown-it": "^14.1.0",
+    "markdown-it-footnote": "^4.0.0",
+    "markdown-it-link-attributes": "^4.0.1",
+    "masto": "^7.2.0",
+    "netlify-plugin-cache": "^1.0.3",
+    "process": "^0.11.10",
+    "tslib": "^2.8.1",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  }
+}

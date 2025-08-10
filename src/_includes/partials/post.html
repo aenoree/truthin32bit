@@ -1,0 +1,14 @@
+<article class="h-entry">
+{% include "partials/h-card.html" %}
+<h1>{{ year }} {{ manufacturer }} {{ model }}</h1>
+
+<img class="u-featured" src="{{ picture }}" {% if alt %}alt="{{ alt }}"{% else %}alt="{{ year }} {{ manufacturer }} {{ model }}"{% endif %}>
+
+{% if pictureCredit %}
+<small>credit: <a href="{{ pictureCreditUrl }}" target="_blank" rel="noopener noreferrer">{{ pictureCredit }}</a> under <a href="/credits/#:~:text={{ pictureLicense }}" data-prefetch>{{ pictureLicense }}</a></small>
+{% endif %}
+
+<div class="e-content">
+{{ content | safe }}
+</div>
+</article>

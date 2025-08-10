@@ -1,0 +1,17 @@
+{%- set vehicle = randomPost -%}
+{%- set post = collections.post | find("data.picture", vehicle.data.picture) -%}
+
+<article class="h-entry">
+{% include "partials/h-card.html" %}
+<h1 class="p-name">{{ post.data.year }} {{ post.data.manufacturer }} {{ post.data.model }}</h1>
+
+<img class="u-featured" src="{{ post.data.picture }}" {% if alt %}alt="{{ post.data.alt }}"{% else %}alt="{{ post.data.year }} {{ post.data.manufacturer }} {{ post.data.model }}"{% endif %}>
+
+{% if post.data.pictureCredit %}
+<small>credit: <a href="{{ post.data.pictureCreditUrl }}" target="_blank" rel="noopener noreferrer">{{ post.data.pictureCredit }}</a> under <a href="/credits/#:~:text={{ post.data.pictureLicense }}" data-prefetch>{{ post.data.pictureLicense }}</a></small>
+{% endif %}
+
+<section class="e-content">
+{{ post.content | safe }}
+</section>
+</article>

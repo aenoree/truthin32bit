@@ -1,0 +1,401 @@
+@font-face {
+    font-family: Atkinson Hyperlegible;
+    src: url('/media/fonts/AtkinsonHyperlegibleNextVF-Variable.woff2');
+}
+@font-face {
+    font-family: Iosevka;
+    src: url('/media/fonts/Iosevka-Medium.woff2');
+}
+
+@font-face {
+    font-family: Inter;
+    src: url('/media/fonts/InterVariable.woff2');
+}
+
+:root {
+    --bg0: #9d005d;
+    --fg0: white;
+    --noise: url(/media/elements/noise.png);
+    --spacing: 1.5rem;
+    --font-stack: "Atkinson Hyperlegible", "Satoshi", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --title-stack: "Inter", "Satoshi", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --footer-stack: "Iosevka", monospace;
+    --max-width: 80ch;
+}
+
+/* Basic styles */
+
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background: var(--fg0);
+    color: var(--bg0);
+}
+
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-image: url("/media/elements/bg.svg");
+  background-blend-mode: multiply;
+  background-color: var(--bg0);
+  color: var(--fg0);
+  font-family: var(--font-stack);
+  font-size: 1.5rem;
+  line-height: 1.5;
+  display: flex;
+  flex-wrap: wrap;
+  /*gap: calc(var(--spacing) * 2);*/
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+  margin-inline: auto;
+  width: 100%;
+  min-height: calc(100vh - 80px - (var(--spacing) * 4) - 143px);
+  flex-grow: 999;
+  padding: 0 4vw;
+  padding-bottom: calc(var(--spacing) * 2);
+  padding-top: calc(var(--spacing) * 2);
+  flex-basis: 40rem;
+  align-content: center;
+    @media only screen and (max-width: 800px) {
+        min-height: unset;
+    }
+}
+
+hr {
+    background-color: var(--fg0);
+    border: none;
+    height: 1px;
+}
+
+/* Heading styles */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: var(--title-stack);
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Adjustments for different heading levels */
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2.66rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.13rem;
+}
+
+/* link styles */
+
+a {
+  color: currentColor;
+  text-decoration-color: var(--color-primary);
+  text-decoration-thickness: 0.2ex;
+  text-underline-offset: 0.3ex;
+  transition: text-decoration-color 0.25s;
+}
+
+a:hover {
+  text-decoration-thickness: 0.3ex;
+  transition: text-decoration-color 0.25s;
+}
+
+a img {
+    vertical-align: middle;
+}
+
+article a[href^="http"]::after,
+article a[href^="https://"]::after
+{
+    content: "↗";
+    font-size: small;
+    margin-left: 1ch;
+    vertical-align: super;
+    display: inline-block;
+}
+
+/* text and flow */
+
+p {
+    transition: 0.25s;
+}
+
+blockquote {
+    transition: 0.25s;
+}
+
+img {
+    margin: var(--spacing) auto;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    transition: 0.25s;
+}
+
+img:hover {
+    transform: scale(1.05);
+    transition: 0.25s;
+}
+
+p img {
+    height: 0.83rem;
+    display: inline-block;
+    margin: 0;
+    border-radius: 0;
+    vertical-align: middle;
+    width: fit-content;
+}
+
+video {
+    margin: var(--spacing) auto;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    transition: 0.25s;
+}
+
+p, h1, h2, h3, h4, h5, ul, li, small, sup, sub {
+    transition: 0.25s;
+}
+
+article:hover p:not(:hover), article:hover small:not(:hover), article:hover li:not(:hover), article:hover img:not(:hover), article:hover .cover-caption:not(:hover), article:hover pre:not(:hover), article:hover button:not(:hover), article:hover iframe:not(:hover), article:hover blockquote:not(:hover), article:hover .work:not(:hover), article:hover h1:not(:hover), article:hover h2:not(:hover), article:hover h3:not(:hover), article:hover h4:not(:hover) {
+    opacity: 0.5;
+    transition: 0.25s;
+}
+
+/* List styles */
+
+ul, ol {
+    padding-inline-start: var(--spacing);
+}
+
+li {
+    margin-block-start: var(--spacing);
+}
+
+/* Blockquote styles */
+blockquote {
+  padding-inline-start: var(--spacing);
+  border-inline-start: 0.3em solid;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+/* Flow and rhythm */
+:is(h2, h3, h4, h5, blockquote) {
+  margin-block-end: calc(var(--spacing) / 2);
+}
+:is(h1, h2, h3, h4, h5) + * {
+  margin-block-start: calc(var(--spacing) / 3);
+}
+:is(h1, h2, h3, h4, h5) + :where(h2, h3, h4, h5) {
+  margin-block-start: calc(var(--spacing) * 2);
+}
+:is(article) + * {
+  margin-block-start: calc(var(--spacing) * 2);
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--spacing) 3vw;
+}
+
+header a {
+    display: flex;
+}
+
+header svg {
+    height: 5rem;
+    fill: var(--fg0);
+    transition: 0.25s;
+}
+
+header svg:hover {
+    transition: 0.25s;
+    transform: scale(1.05);
+}
+
+.headerLogo, nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 450px) {
+    .headerLogo, nav {
+        width: 100%;
+        justify-content: center;
+        margin: var(--spacing) auto;
+    }
+}
+
+footer {
+    width: 100%;
+    font-family: var(--footer-stack);
+    padding: var(--spacing) 3vw;
+    text-align: center;
+}
+
+footer p {
+    background-color: var(--fg0);
+    color: var(--bg0);
+    padding: 0 0.5ch;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: small;
+    font-weight: 500;
+    max-width: 50ch;
+}
+
+.footer-socials {
+    width: 100%;
+    margin: var(--spacing) auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing);
+    justify-content: center;
+    svg {
+        height: 31px;
+        fill: var(--fg0);
+        transition: 0.25s;
+    }
+    img {
+        height: 31px;
+        width: auto;
+        margin: 0;
+        border-radius: 0;
+        image-rendering: pixelated;
+    }
+    a {
+        display: flex;
+    }
+    picture {
+        display: flex;
+    }
+}
+
+.footer-socials svg:hover {
+    transform: scale(1.05);
+    transition: 0.25s;
+}
+
+.back-to-top-btn a {
+    position:fixed;
+    display: block;
+    bottom: var(--spacing);
+    right: var(--spacing);
+    background-color: var(--fg0);
+    color: var(--bg0);
+    width: fit-content;
+    height: auto;
+    padding: 0.5ch 1ch;
+    border-radius: 10px;
+    font-size: smaller;
+    transition: 0.25s;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.35);
+    text-decoration: none;
+}
+
+.back-to-top-btn a:hover {
+    background-color: var(--bg0);
+    color: var(--fg0);
+    transition: 0.25s;
+}
+
+/* page transitions */
+
+@media (prefers-reduced-motion: no-preference) {
+
+    @view-transition {
+        navigation: auto;
+    }
+
+    main {
+        view-transition-name: main-content;
+    }
+
+    html:active-view-transition-type(forward) {
+      &::view-transition-old(main-content) {
+        animation: 0.25s ease-out both slide-out-left;
+      }
+      &::view-transition-new(main-content) {
+        animation: 0.25s ease-out both slide-in-right;
+      }
+    }
+
+    html:active-view-transition-type(backward) {
+      &::view-transition-old(main-content) {
+        animation: 0.25s ease-out both slide-out-right;
+      }
+      &::view-transition-new(main-content) {
+        animation: 0.25s ease-out both slide-in-left;
+      }
+    }
+
+    @keyframes slide-out-left {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+    }
+
+    @keyframes slide-in-right {
+      from {
+        transform: translateX(100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes slide-out-right {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(100%);
+        opacity: 0;
+      }
+    }
+
+    @keyframes slide-in-left {
+        from {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+}

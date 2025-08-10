@@ -1,0 +1,43 @@
+---json
+{
+  "permalink": "/rss/feed.xml",
+  "eleventyExcludeFromCollections": true,
+  "metadata": {
+    "title": "Truth in 32 bit",
+    "description": "A random racing car or motorcycle every hour!",
+    "language": "en",
+    "base": "https://truthin32bit.racing/",
+    "author": {
+      "name": "Truth in 32bit"
+    }
+  }
+}
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ metadata.language or page.lang }}">
+  <title>{{ metadata.title }}</title>
+  <subtitle>{{ metadata.description }}</subtitle>
+  <link href="{{ permalink | htmlBaseUrl(metadata.base) }}" rel="self" />
+  <link href="{{ metadata.base | addPathPrefixToFullUrl }}" />
+  <updated>{{ collections.feed | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>{{ metadata.base | addPathPrefixToFullUrl }}</id>
+  <author>
+    <name>{{ metadata.author.name }}</name>
+  </author>
+  {%- set vehicle = randomPost -%}
+  {%- set post = collections.post | find("data.picture", vehicle.data.picture) -%}
+  {%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.base) }}{% endset %}
+  <entry>
+    <title>{{ post.data.year }} {{ post.data.manufacturer }} {{ post.data.model }}</title>
+    <link href="{{ absolutePostUrl }}" />
+    <updated>{{ buildinfo.buildDateIso }}</updated>
+    <id>{{ absolutePostUrl }}</id>
+    <content type="html">
+    &lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot;  src=&quot;{% if ".jpg" in post.data.picture %}{{ post.data.picture | replace(".jpg", "-1150.webp") | htmlBaseUrl(metadata.base) }}{% elif ".webp" in post.data.picture %}{{ post.data.picture | replace(".webp", "-1150.webp") | htmlBaseUrl(metadata.base) }}{% endif %}&quot; {% if post.data.alt %}alt=&quot;{{ post.data.alt }}&quot;{% else %}alt=&quot;{{ post.data.year }} {{ post.data.manufacturer }} {{ post.data.model }}&quot;{% endif %}&gt;
+    {% if post.data.pictureCredit %}
+    &lt;p&gt;&lt;small&gt;credit: &lt;a href=&quot;{{ post.data.pictureCreditUrl }}&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;{{ post.data.pictureCredit }}&lt;/a&gt; under &lt;a href=&quot;/credits/#:~:text={{ post.data.pictureLicense }}&quot;&gt;{{ post.data.pictureLicense }}&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+    {% endif %}
+    {{ vehicle.content | renderTransforms(post.data.page, metadata.base) }}
+    </content>
+  </entry>
+</feed>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- page title -->
+    <title>Truth in 32bit - a random racing machine every hour!</title>
+    {% if page.url == "/" %}
+    <meta name="description" content="{{ randomPost.data.year }} {{ randomPost.data.manufacturer }} {{ randomPost.data.model }}">
+    {% else %}
+    <meta name="description" content="{{ year }} {{ manufacturer }} {{ model }}">
+    {% endif %}
+    <!-- favicon -->
+    <link rel="icon" type="image/svg+xml" href="/media/icon.svg">
+    <link rel="icon" sizes="96x96" type="image/png" href="/media/icon96.png">
+    <link rel="icon" sizes="256x256" type="image/png" href="/media/icon.png">
+    <!-- open graph title -->
+    <meta property="og:title" content="Truth in 32bit - a random racing machine every hour!">
+    <!-- accent colour for Discord and Vivaldi -->
+    <meta name="theme-color" content="#9d005d">
+    <!-- open graph and embeds -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Truth in 32bit">
+    <meta property="og:url" content="{{ site.url }}">
+    {% if page.url == "/" %}
+    <meta property="og:description" content="{{ randomPost.data.year }} {{ randomPost.data.manufacturer }} {{ randomPost.data.model }}">
+    <meta property="og:image" content="{{ randomPost.data.picture }}">
+    <meta property="og:image:alt" content="{{ randomPost.data.alt }}" />
+    {% else %}
+    <meta property="og:description" content="{{ year }} {{ manufacturer }} {{ model }}">
+    <meta property="og:image" content="{{ picture }}">
+    <meta property="og:image:alt" content="{{ alt }}" />
+    {% endif %}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Truth in 32bit - a random racing machine every hour!" />
+    {% if page.url == "/" %}
+    <meta name="twitter:description" content="{{ randomPost.data.year }} {{ randomPost.data.manufacturer }} {{ randomPost.data.model }}" />
+    <meta name="twitter:image" content="{{ site.url }}{{ randomPost.data.picture }}" />
+    {% else %}
+    <meta name="twitter:description" content="{{ year }} {{ manufacturer }} {{ model }}" />
+    <meta name="twitter:image" content="{{ site.url }}{{ picture }}" />
+    {% endif %}
+    <!-- RSS feed -->
+    <link rel="alternate" type="application/rss+xml" title="Truth in 32bit - a random racing machine every hour!" href="/rss/feed.xml"/>
+    <!-- mastodon verification and attribution -->
+    <link rel="me" href="https://mastodon.social/@truthin32bit">
+    <meta name="fediverse:creator" content="@truthin32bit@mastodon.social">
+    <!-- WEBMENTIONS -->
+    <!--<link rel="me" href="">-->
+    <!--<link rel="webmention" href="" />-->
+    <!-- ROBOTS -->
+    <meta name="robots" content="index, follow">
+    <meta name="robots" content="noai, noimageai">
+    <!-- LINK TO CSS -->
+    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+
+</head>
+
+<body>
+
+{% include "partials/header.html" %}
+
+<main>
+    {{ content | safe }}
+</main>
+
+{% include "partials/footer.html" %}
+
+{% include "partials/speculationrules.html" %}
+<!-- link to scripts -->
+<script src="/js/script.js"></script>
+
+</body>
+
+</html>
