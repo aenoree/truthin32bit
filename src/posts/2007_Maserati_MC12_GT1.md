@@ -4,7 +4,7 @@ manufacturer: Maserati
 model: MC12 GT1
 picture: /media/pictures/2007_Maserati_MC12_GT1.webp
 alt: An MC12 rising over a crest at Road America.
-pictureCredit: Trebz - [1]
+pictureCredit: Trebz
 pictureCreditUrl: https://commons.wikimedia.org/w/index.php?curid=2565112
 pictureLicense: CC BY 2.0
 ---
