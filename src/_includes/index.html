@@ -28,6 +28,8 @@
     <meta property="og:description" content="{{ randomPost.data.year }} {{ randomPost.data.manufacturer }} {{ randomPost.data.model }}">
     <meta property="og:image" content="{{ randomPost.data.picture }}">
     <meta property="og:image:alt" content="{{ randomPost.data.alt }}" />
+    {% elif page.url == "/credits/" %}
+    <meta property="og:description" content="{{ description }}">
     {% else %}
     <meta property="og:description" content="{{ year }} {{ manufacturer }} {{ model }}">
     <meta property="og:image" content="{{ picture }}">
@@ -38,6 +40,8 @@
     {% if page.url == "/" %}
     <meta name="twitter:description" content="{{ randomPost.data.year }} {{ randomPost.data.manufacturer }} {{ randomPost.data.model }}" />
     <meta name="twitter:image" content="{{ site.url }}{{ randomPost.data.picture }}" />
+    {% elif page.url == "/credits/" %}
+    <meta property="twitter:description" content="{{ description }}">
     {% else %}
     <meta name="twitter:description" content="{{ year }} {{ manufacturer }} {{ model }}" />
     <meta name="twitter:image" content="{{ site.url }}{{ picture }}" />

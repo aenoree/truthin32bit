@@ -1,14 +1,14 @@
 {
 	"content": "",
 	"data": {
-		"year": 2024,
-		"manufacturer": "Vulcan Alpha Hyundai",
-		"model": "IONIQ 5 N",
-		"picture": "/media/pictures/2024_Vulcan_Alpha_Hyundai_IONIQ_5_N.jpg",
-		"alt": "A Hyundai IONIQ 5 with an extreme time attack aero kit.",
-		"pictureCredit": "Mia Rose",
-		"pictureCreditUrl": "https://bsky.app/profile/did:plc:chyavhfx6e7ky7gwz7eesvqs",
-		"pictureLicense": "CC BY-NC-SA 4.0"
+		"year": 2007,
+		"manufacturer": "Aston Martin",
+		"model": "DBR9",
+		"picture": "/media/pictures/2007_Aston_Martin_DBR9.webp",
+		"alt": "A green DBR9 shot from above in the pit lane of Le Mans.",
+		"pictureCredit": "Fabe56",
+		"pictureCreditUrl": "https://commons.wikimedia.org/w/index.php?curid=2751434",
+		"pictureLicense": "CC BY-SA 3.0"
 	},
 	"isEmpty": false,
 	"excerpt": ""

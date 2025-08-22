@@ -138,7 +138,6 @@ module.exports = async function (eleventyConfig) {
         // optional, attributes assigned on <img> nodes override these values
         htmlOptions: {
             imgAttributes: {
-                loading: "lazy",
                 decoding: "async",
             },
             pictureAttributes: {}

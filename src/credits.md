@@ -1,6 +1,7 @@
 ---
 layout: "index.html"
 permalink: "/credits/"
+description: "A list of resources used to make this website along with a list of the licenses used by the photographers we sourced pictures from."
 ---
 <article>
 
@@ -19,7 +20,7 @@ permalink: "/credits/"
 - [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)
 - [CC BY-SA 2.0 de](https://creativecommons.org/licenses/by-sa/2.0/de/deed.en)
 - [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
-- [CC BY-SA 3.0 nl](https://creativecommons.org/licenses/by-sa/3.0/de/deed.nl)
+- [CC BY-SA 3.0 nl](https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en)
 - [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 - [CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/)
 - [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)

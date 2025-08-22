@@ -77,6 +77,36 @@
 	{
 		"content": "",
 		"data": {
+			"year": 2016,
+			"manufacturer": "Dodge",
+			"model": "Viper GT3-R",
+			"picture": "/media/pictures/2016_Dodge_Viper_GT3_R.jpg",
+			"alt": "A Dodge Viper GT3 R raced by Riley Motorsports at Road America.",
+			"pictureCredit": "David Kryzaniak",
+			"pictureCreditUrl": "https://www.flickr.com/photos/dave_kz/",
+			"pictureLicense": "CC BY-SA 2.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 2015,
+			"manufacturer": "Toyota",
+			"model": "Prius apr GT",
+			"picture": "/media/pictures/2015_TOYOTA_PRIUS_apr_GT.jpg",
+			"alt": "A Toyota Prius apr GT at Fuji Speedway.",
+			"pictureCredit": "Takayuki Suzuki",
+			"pictureCreditUrl": "https://www.flickr.com/photos/78475089@N02/",
+			"pictureLicense": "CC BY-SA 2.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
 			"year": 2015,
 			"manufacturer": "Scion",
 			"model": "tC",
@@ -107,6 +137,21 @@
 	{
 		"content": "",
 		"data": {
+			"year": 2013,
+			"manufacturer": "BMW",
+			"model": "Z4 GTLM",
+			"picture": "/media/pictures/2013_BMW_Z4_GTLM.webp",
+			"alt": "A black Z4 GTLM in the paddock area viewed from the right side.",
+			"pictureCredit": "Trailers of the East Coast",
+			"pictureCreditUrl": "https://www.flickr.com/people/trailersoftheeastcoast/",
+			"pictureLicense": "CC BY 2.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
 			"year": 2012,
 			"manufacturer": "Saab",
 			"model": "9-3 STCC",
@@ -115,6 +160,21 @@
 			"pictureCredit": "Green Yoshi",
 			"pictureCreditUrl": "https://commons.wikimedia.org/wiki/File:Robin_Rudholm_TTA_Anderstorp_2012.jpg",
 			"pictureLicense": "CC BY-SA 3.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 2012,
+			"manufacturer": "Reiter",
+			"model": "Gallardo LP600+ GT3",
+			"picture": "/media/pictures/2012_Reiter_Gallardo_LP600.webp",
+			"alt": "An orange Reiter Gallardo being serviced in its pit box.",
+			"pictureCredit": "Neuweiser",
+			"pictureCreditUrl": "https://www.flickr.com/people/neuwieser/",
+			"pictureLicense": "CC BY-SA 2.0"
 		},
 		"isEmpty": false,
 		"excerpt": ""
@@ -135,6 +195,36 @@
 		"excerpt": ""
 	},
 	{
+		"content": "",
+		"data": {
+			"year": 2011,
+			"manufacturer": "Nissan",
+			"model": "GT-R GT1",
+			"picture": "/media/pictures/2011_Nissan_GT-R_GT1.webp",
+			"alt": "The side profile of a GT-R GT1 at Silverstone.",
+			"pictureCredit": "ToNG?!",
+			"pictureCreditUrl": "https://www.flickr.com/people/hkedwardtong/",
+			"pictureLicense": "CC BY 2.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 2011,
+			"manufacturer": "Mosler",
+			"model": "MT900M",
+			"picture": "/media/pictures/2011_Mosler_MT900M.jpg",
+			"alt": null,
+			"pictureCredit": "Morio",
+			"pictureCreditUrl": "https://commons.wikimedia.org/wiki/User:Morio",
+			"pictureLicense": "CC BY-SA 3.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
 		"content": "The GT-R was introduced in place of the Fairlady Z in 2008 to coincide with the global release of the R35 GT-R. It immediately took the title that year with Satoshi Motoyama and Benoît Tréluyer behind the wheel. In 2010 the duo racing for Nismo finished 7th in the drivers' standings with two 2nd place finishes, with the highest placing Nissan being TEAM IMPUL in 5th.\n",
 		"data": {
 			"year": 2010,
@@ -150,6 +240,36 @@
 		"excerpt": ""
 	},
 	{
+		"content": "",
+		"data": {
+			"year": 2010,
+			"manufacturer": "Matech Ford",
+			"model": "GT GT1",
+			"picture": "/media/pictures/2010_Matech_Ford_GT_GT1.webp",
+			"alt": "The MarcVD GT GT1 stopped in the pits, with a couple of people standing behind it in front of a garage.",
+			"pictureCredit": "Nicolas Garcia",
+			"pictureCreditUrl": "https://www.flickr.com/people/fisico_6403/",
+			"pictureLicense": "CC BY 2.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 2010,
+			"manufacturer": "Jaguar",
+			"model": "RSR XKR GT2",
+			"picture": "/media/pictures/2010_Jaguar_RSR_XKR_GT2.webp",
+			"alt": "A Jaguar XKR GT2 at Lime Rock Park viewed from a 3/4ths rear view.",
+			"pictureCredit": "Ian",
+			"pictureCreditUrl": "https://www.flickr.com/people/corky_88/",
+			"pictureLicense": " CC BY 2.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
 		"content": "With the Honda NSX out of production for nearly eight years at the start of 2010, Honda and Dome entered the HSV-010 to a debut championship title. Their first front-engine layout machine in their GT500 history, the car featured an exhaust system that produced a very unique engine note from its HR-10EG V8 compared to its competitors.\n",
 		"data": {
 			"year": 2010,
@@ -160,6 +280,21 @@
 			"pictureCredit": "Morio",
 			"pictureCreditUrl": "https://commons.wikimedia.org/w/index.php?curid=10214622",
 			"pictureLicense": "CC BY-SA 3.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 2010,
+			"manufacturer": "Ford",
+			"model": "GT-R Mk.7",
+			"picture": "/media/pictures/2010_Ford_GT-R_Mk_7.webp",
+			"alt": "A silver Ford GT-R at Miller Motorsports Park surrounded by dirt.",
+			"pictureCredit": "Art Bromage",
+			"pictureCreditUrl": "https://www.flickr.com/people/art-sarah/",
+			"pictureLicense": "CC BY-SA 2.0"
 		},
 		"isEmpty": false,
 		"excerpt": ""
@@ -198,6 +333,21 @@
 		"content": "",
 		"data": {
 			"year": 2008,
+			"manufacturer": "Porsche",
+			"model": "911 997 GT3-RSR",
+			"picture": "/media/pictures/2008_Porsche_997_GT3_RSR.jpg",
+			"alt": "A grey and red Flying Lizard motorsports Porsche 911 997 GT3-RSR at the final turn of Long Beach, a tight hairpin.",
+			"pictureCredit": "Clemson",
+			"pictureCreditUrl": "https://www.flickr.com/photos/clemson/",
+			"pictureLicense": "CC BY 2.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 2008,
 			"manufacturer": "Ducati",
 			"model": "1098 F08",
 			"picture": "/media/pictures/2008_Ducati_1098_F08.webp",
@@ -210,6 +360,36 @@
 		"excerpt": ""
 	},
 	{
+		"content": "",
+		"data": {
+			"year": 2008,
+			"manufacturer": "apr Toyota",
+			"model": "MR-S GT300",
+			"picture": "/media/pictures/2008_apr_MR-S.jpg",
+			"alt": "A GT300 apr Toyota MR-S sporting a Lightning McQueen livery.",
+			"pictureCredit": "Morio",
+			"pictureCreditUrl": "https://commons.wikimedia.org/wiki/User:Morio",
+			"pictureLicense": "CC BY-SA 3.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 2007,
+			"manufacturer": "Porsche",
+			"model": "RS Spyder Evo",
+			"picture": "/media/pictures/2007_Porsche_RS_Spyder_Evo.webp",
+			"alt": "A close shot of the side of a yellow and red DHL sponsored Porsche RS Spyder Evo.",
+			"pictureCredit": "TorontoGuy79",
+			"pictureCreditUrl": "https://commons.wikimedia.org/w/index.php?curid=109867539",
+			"pictureLicense": "CC BY-SA 4.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
 		"content": "Whilst the MC12 GT1 dominated over in Europe, in the United States Doran Racing entered an MC12 at the Road America Generac 500 and Petit Le Mans. During Petit Le Mans Doran Racing qualified ahead of both of the factory Corvette Racing C6.Rs with a one-second gap, but would retire from an accident in the race.\n",
 		"data": {
 			"year": 2007,
@@ -217,7 +397,7 @@
 			"model": "MC12 GT1",
 			"picture": "/media/pictures/2007_Maserati_MC12_GT1.webp",
 			"alt": "An MC12 rising over a crest at Road America.",
-			"pictureCredit": "Trebz - [1]",
+			"pictureCredit": "Trebz",
 			"pictureCreditUrl": "https://commons.wikimedia.org/w/index.php?curid=2565112",
 			"pictureLicense": "CC BY 2.0"
 		},
@@ -257,6 +437,21 @@
 	{
 		"content": "",
 		"data": {
+			"year": 2007,
+			"manufacturer": "Aston Martin",
+			"model": "DBR9",
+			"picture": "/media/pictures/2007_Aston_Martin_DBR9.webp",
+			"alt": "A green DBR9 shot from above in the pit lane of Le Mans.",
+			"pictureCredit": "Fabe56",
+			"pictureCreditUrl": "https://commons.wikimedia.org/w/index.php?curid=2751434",
+			"pictureLicense": "CC BY-SA 3.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
 			"year": 2006,
 			"manufacturer": "Porsche",
 			"model": "911 GT3 Cup (997)",
@@ -288,10 +483,10 @@
 		"content": "",
 		"data": {
 			"year": 2006,
-			"manufacturer": "Chevrolet",
+			"manufacturer": "Chevrolet Corvette",
 			"model": "C6.R",
 			"picture": "/media/pictures/2006_Chevrolet_Corvette_C6R.webp",
-			"alt": "A Corvette C6.R in front of an Aston Martin DBR9 at Laguna Seca.",
+			"alt": "A Chevrolet Corvette C6.R in front of an Aston Martin DBR9 at Laguna Seca.",
 			"pictureCredit": "Clemson",
 			"pictureCreditUrl": "https://www.flickr.com/people/clemson/",
 			"pictureLicense": "CC BY 2.0"
@@ -324,6 +519,21 @@
 			"alt": "A DBRS9 amongst the sand of Laguna Seca",
 			"pictureCredit": "Clemson",
 			"pictureCreditUrl": "https://www.flickr.com/people/clemson/",
+			"pictureLicense": "CC BY 2.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 2005,
+			"manufacturer": "Citroën",
+			"model": "Xsara WRC",
+			"picture": "/media/pictures/2005_Citroen_Xsara_WRC.webp",
+			"alt": "An Xsara on a dirt road in front of a small bank, viewed from slightly high above.",
+			"pictureCredit": "Leonid Mamchenkov",
+			"pictureCreditUrl": "https://www.flickr.com/people/mamchenkov/",
 			"pictureLicense": "CC BY 2.0"
 		},
 		"isEmpty": false,
@@ -420,6 +630,21 @@
 		"excerpt": ""
 	},
 	{
+		"content": "",
+		"data": {
+			"year": 2004,
+			"manufacturer": "Dodge",
+			"model": "Viper Competition Coupe",
+			"picture": "/media/pictures/2004_Dodge_Viper_Competition_Coupe.webp",
+			"alt": "A black and red Viper seen from a front viewing 3/4ths angle at California Speedway.",
+			"pictureCredit": "Angel_Blue",
+			"pictureCreditUrl": "https://www.flickr.com/people/derra1029/",
+			"pictureLicense": "CC BY-SA 2.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
 		"content": "The Audi A4 was the German marque's entrant into the DTM series starting in 2004 after the series phased out two-door coupe bodies for four-door sedan bodies. Mattias Ekström won that year's championship for Audi in the new A4 for Abt Sportsline. Displayed is Pierre Kaffer driving the R9 chassis in 2005 for Team Joest, whilst Abt Sportsline used the new R11 chassis.\n",
 		"data": {
 			"year": 2004,
@@ -435,6 +660,21 @@
 		"excerpt": ""
 	},
 	{
+		"content": "",
+		"data": {
+			"year": 2003,
+			"manufacturer": "Subaru",
+			"model": "Impreza WRC2003 (S9)",
+			"picture": "/media/pictures/2003_Subaru_Impreza_GD_WRC2003.webp",
+			"alt": "A blue Subaru traveling through light gravel at the Acropolis Rally.",
+			"pictureCredit": "Nickgleris",
+			"pictureCreditUrl": "https://commons.wikimedia.org/w/index.php?curid=73479278",
+			"pictureLicense": "CC BY-SA 4.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
 		"content": "The 2003 Nissan Skyline GT-R GT500 is based off of the BNR34 generation of the Skyline GT-R road car. The car was powered by a V6 VQ30DETT and featured a unique body modified from the road going version. 2003 was the final year for the Skyline GT-R model in GT500 and was its final championship with the #23 Skyline GT-R driven by Satoshi Motoyama and Michael Krumm.\n",
 		"data": {
 			"year": 2003,
@@ -445,6 +685,21 @@
 			"pictureCredit": "Tennen-Gas",
 			"pictureCreditUrl": "https://commons.wikimedia.org/w/index.php?curid=3356892",
 			"pictureLicense": "CC BY-SA 3.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 2003,
+			"manufacturer": "Lister",
+			"model": "Storm GTM",
+			"picture": "/media/pictures/2003_Lister_Storm_GTM.webp",
+			"alt": "A black Lister Storm being shot from behind a chain link fence.",
+			"pictureCredit": "Martin Lee",
+			"pictureCreditUrl": "https://www.flickr.com/people/kartingnord/",
+			"pictureLicense": "CC BY-SA 2.0"
 		},
 		"isEmpty": false,
 		"excerpt": ""
@@ -475,6 +730,21 @@
 			"pictureCredit": "Martin Lee",
 			"pictureCreditUrl": "https://www.flickr.com/people/62983535@N06",
 			"pictureLicense": "CC BY-SA 2.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 2001,
+			"manufacturer": "Mitsubishi",
+			"model": "Lancer Evo 6.5",
+			"picture": "/media/pictures/2001_Mitsubishi_Lancer_Evo_6_5.webp",
+			"alt": "A Mitsubishi Lancer Evo parked with a camera pointed towards the drivers' side.",
+			"pictureCredit": "Pasi Piesanen",
+			"pictureCreditUrl": "https://commons.wikimedia.org/w/index.php?curid=3445488",
+			"pictureLicense": "CC BY-SA 3.0"
 		},
 		"isEmpty": false,
 		"excerpt": ""
@@ -520,6 +790,21 @@
 			"pictureCredit": "Martin Lee",
 			"pictureCreditUrl": "https://www.flickr.com/people/62983535@N06",
 			"pictureLicense": "CC BY-SA 2.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 2000,
+			"manufacturer": "Subaru",
+			"model": "Impreza WRC2000 (P2000)",
+			"picture": "/media/pictures/2000_Subaru_Impreza_WRC2000_P2000.webp",
+			"alt": "A blue Subaru parked on grass.",
+			"pictureCredit": "Calreyn88",
+			"pictureCreditUrl": "https://commons.wikimedia.org/w/index.php?curid=163554267",
+			"pictureLicense": "CC BY-SA 4.0"
 		},
 		"isEmpty": false,
 		"excerpt": ""
@@ -633,6 +918,21 @@
 		"content": "",
 		"data": {
 			"year": 1998,
+			"manufacturer": "Citroën",
+			"model": "Xsara Kit Car",
+			"picture": "/media/pictures/1998_Citroen_Xsara_Kit_Car.webp",
+			"alt": "An Xsara parked on the side of the road being serviced by a driver.",
+			"pictureCredit": "\rSitomon",
+			"pictureCreditUrl": "https://www.flickr.com/people/sitomon/",
+			"pictureLicense": "CC BY-SA 2.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 1998,
 			"manufacturer": "Chrysler Viper",
 			"model": "GTS-R",
 			"picture": "/media/pictures/1998_Chrysler_Viper_GTS_R.jpg",
@@ -735,6 +1035,66 @@
 		"excerpt": ""
 	},
 	{
+		"content": "",
+		"data": {
+			"year": 1991,
+			"manufacturer": "Mazda",
+			"model": "787B",
+			"picture": "/media/pictures/1991_Mazda_787B.webp",
+			"alt": "A green and orange 787B in front of ad boards at Le Mans.",
+			"pictureCredit": "JPRoche",
+			"pictureCreditUrl": "https://commons.wikimedia.org/w/index.php?curid=27935603",
+			"pictureLicense": "CC BY-SA 3.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 1989,
+			"manufacturer": "Nissan",
+			"model": "GTP ZX-Turbo",
+			"picture": "/media/pictures/1989_Nissan_GTP_ZX_Turbo.jpg",
+			"alt": "A Nissan GTP ZX-Turbo sitting in the paddock with spectators walking by and examining the car.",
+			"pictureCredit": "formulanone",
+			"pictureCreditUrl": "https://www.flickr.com/photos/formulanone/",
+			"pictureLicense": "CC BY-SA 3.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 1989,
+			"manufacturer": "Jaguar",
+			"model": "XJR-9",
+			"picture": "/media/pictures/1989_Jaguar_XJR_9.jpg",
+			"alt": "A Jaguar XJR-9 sitting in the paddock, one door open.",
+			"pictureCredit": "formulanone",
+			"pictureCreditUrl": "https://www.flickr.com/photos/formulanone/",
+			"pictureLicense": "CC BY-SA 3.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 1989,
+			"manufacturer": "Eagle Toyota",
+			"model": "HF89",
+			"picture": "/media/pictures/1989_Eagle_HF89.jpg",
+			"alt": "An Eagle Toyota HF89 sitting in the paddock with people walking by and examining the car.",
+			"pictureCredit": "formulanone",
+			"pictureCreditUrl": "https://www.flickr.com/photos/formulanone/",
+			"pictureLicense": "CC BY-SA 3.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
 		"content": "Based off of a modified March 86G chassis, the BMW GTP was the Bavarian manufacturer's entrant into the IMSA GTP class of the 1980s. It utilized a BMW M12/14 that soon became its Achilles' heel through its lack of reliability. It garnered a sole victory at Watkins Glen in 1986 and was axed from competition by the end of the season.\n",
 		"data": {
 			"year": 1986,
@@ -745,6 +1105,21 @@
 			"pictureCredit": "Neil",
 			"pictureCreditUrl": "https://www.flickr.com/people/86507786@N00",
 			"pictureLicense": "CC BY-SA 2.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 1983,
+			"manufacturer": "March",
+			"model": "83G",
+			"picture": "/media/pictures/1983_March_83G.jpg",
+			"alt": "A March 83G at Sears Point.",
+			"pictureCredit": "Dan Wildhirt",
+			"pictureCreditUrl": "http://photos.wildhirt.com/",
+			"pictureLicense": "CC BY-SA 3.0"
 		},
 		"isEmpty": false,
 		"excerpt": ""
@@ -847,9 +1222,9 @@
 			"model": "250 TRI60",
 			"picture": "/media/pictures/1960_Ferrari_250_TRI60.webp",
 			"alt": "A Ferrari 250 TRI60 sat in a queue in front of a crowd in black and white.",
-			"pictureCredit": null,
-			"pictureCreditUrl": null,
-			"pictureLicense": "Public Domain"
+			"pictureCredit": "Unknown photographer",
+			"pictureCreditUrl": "https://commons.wikimedia.org/wiki/File:1960-05-08_Targa_Florio_Ferrari_250_TRI-60_0780TR_Hill.jpg",
+			"pictureLicense": "Public domain"
 		},
 		"isEmpty": false,
 		"excerpt": ""
