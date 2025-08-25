@@ -33,6 +33,21 @@
 		"content": "",
 		"data": {
 			"year": 2024,
+			"manufacturer": "Cadillac",
+			"model": "V-Series.R",
+			"picture": "/media/pictures/2024_Cadillac_V-Series_R.webp",
+			"alt": "A gold and black Cadillac V-Series.R taken from behind a tire barrier.",
+			"pictureCredit": "Rick Flores",
+			"pictureCreditUrl": "https://www.flickr.com/people/ricardojesusflores/",
+			"pictureLicense": "CC BY 2.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 2024,
 			"manufacturer": "BMW",
 			"model": "S1000RR",
 			"picture": "/media/pictures/2024_BMW_S1000RR.webp",
@@ -40,6 +55,36 @@
 			"pictureCredit": "Jearle",
 			"pictureCreditUrl": "https://commons.wikimedia.org/w/index.php?curid=150430484",
 			"pictureLicense": "CC BY-SA 2.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 2024,
+			"manufacturer": "BMW",
+			"model": "M Hybrid V8",
+			"picture": "/media/pictures/2024_BMW_M_Hybrid_V8.webp",
+			"alt": "A BMW M Hybrid V8 with its numberplate illuminated at night in front of spectator camps.",
+			"pictureCredit": "Rick Flores",
+			"pictureCreditUrl": "https://www.flickr.com/people/ricardojesusflores/",
+			"pictureLicense": "CC BY 2.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 2019,
+			"manufacturer": "Mazda",
+			"model": "RT24-P",
+			"picture": "/media/pictures/2019_Mazda_RT24-P.webp",
+			"alt": "A Mazda RT24-P with a BMW M6 and Cadillac DPi-V.R behind it above a crest.",
+			"pictureCredit": "TorontoGuy79",
+			"pictureCreditUrl": "https://commons.wikimedia.org/w/index.php?curid=109837320",
+			"pictureLicense": "CC BY-SA 4.0"
 		},
 		"isEmpty": false,
 		"excerpt": ""
@@ -348,6 +393,21 @@
 		"content": "",
 		"data": {
 			"year": 2008,
+			"manufacturer": "Ford",
+			"model": "Focus RS WRC08",
+			"picture": "/media/pictures/2008_Ford_Focus_RS_WRC08.webp",
+			"alt": "A Focus RS racing on gravel at Rally Japan.",
+			"pictureCredit": "Kirche",
+			"pictureCreditUrl": "https://commons.wikimedia.org/w/index.php?curid=115953569",
+			"pictureLicense": "CC BY-SA 4.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 2008,
 			"manufacturer": "Ducati",
 			"model": "1098 F08",
 			"picture": "/media/pictures/2008_Ducati_1098_F08.webp",
@@ -438,6 +498,21 @@
 		"content": "",
 		"data": {
 			"year": 2007,
+			"manufacturer": "Dodge",
+			"model": "Charger",
+			"picture": "/media/pictures/2007_Dodge_Charger.webp",
+			"alt": "A Charger NASCAR stockcar during a pit stop.",
+			"pictureCredit": "Bo Nash",
+			"pictureCreditUrl": "https://www.flickr.com/people/sidehike/",
+			"pictureLicense": "CC BY-SA 2.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 2007,
 			"manufacturer": "Aston Martin",
 			"model": "DBR9",
 			"picture": "/media/pictures/2007_Aston_Martin_DBR9.webp",
@@ -519,6 +594,21 @@
 			"alt": "A DBRS9 amongst the sand of Laguna Seca",
 			"pictureCredit": "Clemson",
 			"pictureCreditUrl": "https://www.flickr.com/people/clemson/",
+			"pictureLicense": "CC BY 2.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 2005,
+			"manufacturer": "Mitsubishi",
+			"model": "Lancer WRC05",
+			"picture": "/media/pictures/2005_Mitsubishi_Lancer_WRC05.webp",
+			"alt": "A Lancer WRC05 on a gravel path with tall grass to its left.",
+			"pictureCredit": "Leonid Mamchenkov",
+			"pictureCreditUrl": "https://www.flickr.com/people/mamchenkov/",
 			"pictureLicense": "CC BY 2.0"
 		},
 		"isEmpty": false,
@@ -705,6 +795,21 @@
 		"excerpt": ""
 	},
 	{
+		"content": "",
+		"data": {
+			"year": 2003,
+			"manufacturer": "Honda",
+			"model": "RC211V",
+			"picture": "/media/pictures/2003_Honda_RC211V.webp",
+			"alt": "Valentino Rossi doing a wheelie on a Honda RC211V.",
+			"pictureCredit": "Box Repsol",
+			"pictureCreditUrl": "https://www.flickr.com/people/box_repsol/",
+			"pictureLicense": "CC BY 2.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
 		"content": "Bentley broke the winning streak of Audi in 2003 with their Speed 8, as the brand achieved it's first victory at the 24 Hours of Le Mans since 1930. The car shared almost nothing, save for the engine, from the previous EXP Speed 8 that competed previously in 2001 and 2002. The #8 car featured shorter endplates than the winning #7's nearly enclosed endplates.\n",
 		"data": {
 			"year": 2003,
@@ -729,6 +834,36 @@
 			"alt": "An Audi R8 LMP driving past yellow and blue curbing.",
 			"pictureCredit": "Martin Lee",
 			"pictureCreditUrl": "https://www.flickr.com/people/62983535@N06",
+			"pictureLicense": "CC BY-SA 2.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 2001,
+			"manufacturer": "Vauxhall",
+			"model": "Astra Coupe BTC-T",
+			"picture": "/media/pictures/2001_Vauxhall_Astra_Coupe_BTC-T.webp",
+			"alt": "A red and white Astra over green and white kerbing.",
+			"pictureCredit": "Simspeed Racing",
+			"pictureCreditUrl": "https://commons.wikimedia.org/w/index.php?curid=64730520",
+			"pictureLicense": "CC BY-SA 4.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 2001,
+			"manufacturer": "Proton",
+			"model": "Impian BTC-T",
+			"picture": "/media/pictures/2001_Proton_Impian_BTC-T.webp",
+			"alt": "A Proton Impian in the paddock covered by the shade.",
+			"pictureCredit": "\rIainW81",
+			"pictureCreditUrl": "https://www.flickr.com/people/iainw81/",
 			"pictureLicense": "CC BY-SA 2.0"
 		},
 		"isEmpty": false,
@@ -1008,6 +1143,21 @@
 		"content": "",
 		"data": {
 			"year": 1995,
+			"manufacturer": "Subaru",
+			"model": "Impreza 555 (S3)",
+			"picture": "/media/pictures/1995_Subaru_Impreza_555.webp",
+			"alt": "A blue Impreza at a display with a white Focus behind.",
+			"pictureCredit": "Liz Jones",
+			"pictureCreditUrl": "https://www.flickr.com/people/lizjones/",
+			"pictureLicense": "CC BY 2.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 1995,
 			"manufacturer": "Marcos",
 			"model": "LM600",
 			"picture": "/media/pictures/1995_Marcos_LM600.webp",
@@ -1090,6 +1240,21 @@
 			"pictureCredit": "formulanone",
 			"pictureCreditUrl": "https://www.flickr.com/photos/formulanone/",
 			"pictureLicense": "CC BY-SA 3.0"
+		},
+		"isEmpty": false,
+		"excerpt": ""
+	},
+	{
+		"content": "",
+		"data": {
+			"year": 1989,
+			"manufacturer": "Buick",
+			"model": "Regal",
+			"picture": "/media/pictures/1989_Buick_Regal.webp",
+			"alt": "A Buick Regal racing on an oval in front of a Unocal 76 advert.",
+			"pictureCredit": "Mike Traverse",
+			"pictureCreditUrl": "https://www.flickr.com/people/55173627@N00/",
+			"pictureLicense": "CC BY-SA 2.0"
 		},
 		"isEmpty": false,
 		"excerpt": ""
