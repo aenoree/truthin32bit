@@ -12,6 +12,7 @@ description: "A list of resources used to make this website along with a list of
 - fonts: [Atkinson Hyperlegible](https://www.brailleinstitute.org/freefont/), [Inter](https://rsms.me/inter/) and [Iosevka](https://typeof.net/Iosevka/)
 - background picture for the social profile picture: [Quentin Martinez](https://unsplash.com/photos/DJrfzSki3Ok)
 - background picture for the 88x31 button: [Cédric Streit](https://unsplash.com/photos/7qqjZ5sI56w)
+- built using [Eleventy](https://www.11ty.dev/) and hosted on [netlify](https://www.netlify.com/)
 
 ## Licenses
 
